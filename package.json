@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://RichR31.github.io/building-blocks-web",
+  "homepage": "https://richr31.github.io/building-blocks-web",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "deploy" : "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
