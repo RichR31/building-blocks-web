@@ -9,6 +9,8 @@ function monoWords(mono){
     return arr;
 }
 
+
+
 function rainbowWords(rainbow){
     const arr = []
     rainbow.forEach((word)=> {
