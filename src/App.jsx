@@ -20,6 +20,5 @@ import both_data from './util/best.json';
 export default function App() {
   return (
     <CubePage data={both_data}/>
-    
   );
 }
